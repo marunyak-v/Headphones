@@ -20,5 +20,12 @@
 
   "colorize.colorized_variables": ["SCSS"],
   "colorize.languages": ["scss", "sass"],
-  "colorize.filetypes": ["scss", "sass", "css", "javascript", "typescript"]
+  "colorize.filetypes": [
+    "scss",
+    "sass",
+    "css",
+    "javascript",
+    "typescript"
+  ],
+  "liveServer.settings.port": 5501
 }
