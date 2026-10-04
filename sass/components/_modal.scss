@@ -49,6 +49,7 @@
   z-index: 200;
 
   background-color: $color-0;
+  display: none;
 }
 
 .modal {
@@ -70,6 +71,7 @@
     height: auto;
 
     box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
+    display: none;
   }
 
   .modal {
