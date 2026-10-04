@@ -1,5 +1,6 @@
 .design-wrapper {
   padding-top: 26px;
+  padding-bottom: 26px;
   display: flex;
   flex-direction: column-reverse;
 }
@@ -52,6 +53,8 @@
 @media (min-width: 1440px) {
   .design-wrapper {
     padding-top: 92px;
+    padding-bottom: 85px;
+    margin-top: 0;
     gap: 150px;
   }
 

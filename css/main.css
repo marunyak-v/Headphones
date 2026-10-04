@@ -670,6 +670,7 @@ h3 {
 }
 .design-wrapper {
   padding-top: 26px;
+  padding-bottom: 26px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -728,6 +729,8 @@ h3 {
 @media (min-width: 1440px) {
   .design-wrapper {
     padding-top: 92px;
+    padding-bottom: 85px;
+    margin-top: 0;
     gap: 150px;
   }
   .design-photo-wrapper {
@@ -758,5 +761,55 @@ h3 {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
+  }
+}
+.ability-wrapper {
+  padding-top: 26px;
+}
+
+.ability-wrapper h2 {
+  margin-bottom: 32px;
+  letter-spacing: 2px;
+}
+
+.ability-svg {
+  fill: #B5302D;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+}
+
+.ability-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 24px;
+  margin-bottom: 16px;
+}
+
+@media (min-width: 768px) {
+  .ability-br {
+    display: none;
+  }
+}
+@media (min-width: 1440px) {
+  .ability {
+    padding-left: 110px;
+  }
+  .ability-wrapper {
+    padding-top: 85px;
+  }
+  .ability-wrapper h2 {
+    margin-bottom: 60px;
+  }
+  .ability-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .ability-item {
+    margin-bottom: 30px;
   }
 }/*# sourceMappingURL=main.css.map */
