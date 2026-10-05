@@ -1,0 +1,145 @@
+.brandhistory-wrapper {
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+
+.brandhistory-svg {
+  position: absolute;
+  right: -116px;
+}
+
+.brandhistory-svg svg {
+  fill: $color-6;
+  width: 220.06px;
+  height: 82.04px;
+}
+
+.brandhistory-content {
+  position: relative;
+  display: flex;
+  z-index: 1;
+  margin-bottom: 32px;
+}
+
+.brandhistory-text {
+  margin-bottom: 32px;
+}
+
+.brandhistory-people-picture img {
+  display: block;
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.brandhistory-man-picture img {
+  display: block;
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.brandhistory-svg-untitled {
+  fill: $color-4;
+  width: 34px;
+  height: 25px;
+  margin-bottom: 24px;
+}
+
+.brandhistory-wrapper h3 {
+  margin-bottom: 16px;
+}
+
+.brandhistory-text-2 {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+@media (min-width: 768px) {
+  .brandhistory-svg {
+    display: none;
+  }
+
+  .brandhistory-wrapper {
+    padding-bottom: 50px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 60px;
+
+    align-items: start;
+  }
+
+  .brandhistory-content {
+    grid-column: 1 / 2;
+    grid-row: 1;
+  }
+
+  .text-1 {
+    grid-column: 1 / 2;
+    grid-row: 2;
+    margin-bottom: 85px;
+  }
+
+  .text-2 {
+    grid-column: 1 / 2;
+    grid-row: 3;
+    margin-bottom: 120px;
+  }
+
+  .brandhistory-man-picture {
+    grid-column: 1 / 2;
+    grid-row: 4 / 8;
+    margin-bottom: 0;
+    display: block;
+    width: auto;
+  }
+
+  .brandhistory-people-picture {
+    grid-column: 2 / 3;
+    grid-row: 1 / 4;
+    display: block;
+    width: auto;
+    margin-right: -60px;
+  }
+
+  .text-3 {
+    grid-column: 2 / 3;
+    grid-row: 4;
+    margin-top: -50px;
+    margin-bottom: 90px;
+  }
+
+  .brandhistory-svg-untitled {
+    grid-column: 2 / 3;
+    grid-row: 5;
+  }
+
+  .brandhistory-wrapper h3 {
+    grid-column: 2 / 3;
+    grid-row: 6;
+    margin-bottom: 0;
+  }
+
+  .brandhistory-text-2 {
+    grid-column: 2 / 3;
+    grid-row: 7;
+  }
+}
+
+@media (min-width: 1440px) {
+  .brandhistory-wrapper {
+    padding-top: 85px;
+    padding-bottom: 85px;
+  }
+
+  .brandhistory-man-picture img {
+    display: block;
+    width: auto;
+  }
+
+  .text-2 {
+    margin-bottom: 170px;
+  }
+
+  .text-3 {
+    margin-top: -100px;
+  }
+}

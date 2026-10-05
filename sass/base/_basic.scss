@@ -1,6 +1,7 @@
 body {
   background-color: $color-0;
   font-family: outfit, sans-serif;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.25;
   color: rgba($color-6, 0.8);
@@ -30,12 +31,11 @@ h3 {
   line-height: 1.25;
 }
 
-
-
 @media (min-width: 768px) {
   body {
     background-color: $color-0;
     font-family: outfit, sans-serif;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.45;
   }
@@ -55,6 +55,7 @@ h3 {
     font-weight: 600;
     font-size: 30px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
   }
 
   h3 {
@@ -69,8 +70,9 @@ h3 {
   body {
     background-color: $color-0;
     font-family: outfit, sans-serif;
-    font-size: 16px;
-    line-height: 1.25;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.45;
   }
 
   h1 {
