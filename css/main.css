@@ -1345,4 +1345,113 @@ h3 {
   .reviews-text {
     margin-bottom: 40px;
   }
+}
+.container-faq {
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+
+.container-faq h2 {
+  margin-bottom: 32px;
+}
+
+.faq-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 12px;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.faq-wrapper h3 {
+  margin: 0;
+}
+
+.faq-wrapper p {
+  margin: 0;
+}
+
+.question-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 32px;
+  height: 32px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.question-svg {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .container-faq {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .faq-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding-bottom: 24px;
+  }
+  .faq-wrapper h3 {
+    margin: 0;
+    width: 32px;
+  }
+  .faq-wrapper p {
+    margin: 0;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    text-align: left;
+  }
+  .question-svg {
+    width: 32px;
+    height: 32px;
+    margin-left: auto;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container-faq {
+    margin-top: 85px;
+    margin-bottom: 85px;
+  }
+  .faq-wrapper {
+    gap: 24px;
+    margin-bottom: 85px;
+  }
+  .faq-wrapper h3 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.45;
+  }
+  .faq-wrapper p {
+    color: #e7e7e7;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1.25;
+  }
 }/*# sourceMappingURL=main.css.map */
