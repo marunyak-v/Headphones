@@ -1436,8 +1436,8 @@ h3 {
 }
 @media screen and (min-width: 1440px) {
   .container-faq {
-    margin-top: 85px;
-    margin-bottom: 85px;
+    padding-top: 85px;
+    padding-bottom: 85px;
   }
   .faq-wrapper {
     gap: 24px;
@@ -1453,5 +1453,220 @@ h3 {
     font-weight: 600;
     font-size: 28px;
     line-height: 1.25;
+  }
+}
+.bosenc-wrapper {
+  padding-top: 26px;
+  padding-bottom: 44px;
+}
+
+.h2-name {
+  margin-bottom: 32px;
+}
+
+.headphones-colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.headphones-images {
+  width: 100%;
+}
+
+.black-headphones-picture,
+.gray-headphones-picture {
+  display: none;
+  width: 100%;
+}
+
+.black-headphones-picture img,
+.gray-headphones-picture img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 32px;
+}
+
+.black-headphones-picture.active,
+.gray-headphones-picture.active {
+  display: block;
+}
+
+.color-option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 1px solid #555555;
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+  -webkit-transition: border-color 0.3s ease;
+  transition: border-color 0.3s ease;
+}
+
+.color-option.active {
+  border-color: #ffffff;
+}
+
+.color-circle {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  -webkit-transition: -webkit-box-shadow 0.3s ease;
+  transition: -webkit-box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease, -webkit-box-shadow 0.3s ease;
+}
+
+.color-option.active .color-circle {
+  -webkit-box-shadow: 0 0 0 1px #ff3b30;
+          box-shadow: 0 0 0 1px #ff3b30;
+}
+
+.color-circle.black {
+  background-color: #000000;
+}
+
+.color-circle.gray {
+  background-color: #f5f5f7;
+}
+
+.bosenc-list {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 32px;
+}
+
+.bosenc-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 25px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  -webkit-transition: border-color 0.3s ease;
+  transition: border-color 0.3s ease;
+}
+
+.bosenc-item p {
+  margin: 0;
+}
+
+.bosenc-svg {
+  width: 20px;
+  height: 20px;
+  fill: #df3d3a;
+}
+
+.price {
+  color: #df3d3a;
+  margin-bottom: 24px;
+}
+
+.btn {
+  padding: 19px 0;
+  width: 100%;
+  font-weight: 500;
+  background-color: #df3d3a;
+  color: #ffffff;
+  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn:hover {
+  background-color: #B5302D;
+}
+
+@media screen and (min-width: 768px) {
+  .bosenc-wrapper {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .color-option {
+    width: 58px;
+    height: 58px;
+  }
+  .color-circle {
+    width: 42px;
+    height: 42px;
+  }
+  .headphones-colors {
+    margin-bottom: 40px;
+  }
+  .bosenc-list {
+    margin-bottom: 52px;
+  }
+  .btn {
+    max-width: 294px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .bosenc-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto;
+    -webkit-column-gap: 60px;
+       -moz-column-gap: 60px;
+            column-gap: 60px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    padding-top: 85px;
+    padding-bottom: 85px;
+  }
+  .h2-name {
+    grid-column: 1;
+    grid-row: 1;
+    margin-bottom: 50px;
+  }
+  .headphones-colors {
+    grid-column: 1;
+    grid-row: 2;
+    margin-bottom: 50px;
+  }
+  .bosenc-list {
+    grid-column: 1;
+    grid-row: 3;
+    max-width: 400px;
+  }
+  .price {
+    grid-column: 1;
+    grid-row: 4;
+    margin-bottom: 50px;
+  }
+  .btn {
+    grid-column: 1;
+    grid-row: 5;
+    max-width: 400px;
+  }
+  .headphones-images {
+    grid-column: 2;
+    grid-row: 1/6;
+  }
+  .black-headphones-picture img,
+  .gray-headphones-picture img {
+    margin-bottom: 0;
+    width: auto;
+    margin-right: -90px;
   }
 }/*# sourceMappingURL=main.css.map */
