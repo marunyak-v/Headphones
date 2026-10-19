@@ -582,10 +582,87 @@
             </svg>
           </li>
         </ul>
-        <h2 class="price">
-          14 999 UAH
-        </h2>
+        <h2 class="price">14 999 UAH</h2>
         <button class="btn">ЗАМОВИТИ</button>
+      </div>
+    </section>
+    <section class="feedback">
+      <div class="container feedback-wrapper">
+        <div class="feedback-content">
+          <picture class="feedback-picture">
+            <source
+              srcset="./img/feedback/feedback-desktop@2x.png 2x"
+              media="(min-width: 1440px)"
+            />
+            <source
+              srcset="./img/feedback/feedback-tablet@2x.png 2x"
+              media="(min-width: 768px)"
+            />
+            <img src="./img/feedback/feedback-mobile@2x.png" alt="Headphones" />
+          </picture>
+          <div class="feedback-content-text">
+            <div class="feedback-text">
+              <h2>FEEDBACK</h2>
+              <p>We'll help you find the right headphones for you.</p>
+            </div>
+            <div class="feedback-form">
+              <form class="modal-form" autocomplete="off">
+                <label class="modal-label">
+                  <input
+                    class="modal-submit"
+                    type="text"
+                    name="name"
+                    placeholder="Your name"
+                    required
+                  />
+                </label>
+
+                <label class="modal-label">
+                  <input
+                    class="modal-submit"
+                    type="email"
+                    name="email"
+                    placeholder="Your e-mail"
+                    required
+                  />
+                </label>
+
+                <label class="modal-label modal-label-textarea">
+                  <textarea
+                    class="text-comment"
+                    name="comment"
+                    placeholder="Send us a message"
+                    rows="3"
+                  ></textarea>
+                </label>
+
+                <label class="modal-label-checkbox">
+                  <input
+                    class="input-checkbox"
+                    type="checkbox"
+                    name="privacy"
+                    required
+                  />
+
+                  <span class="custom-checkbox-container">
+                    <svg class="checkbox" width="14" height="14">
+                      <use href="./img/sprites.svg#vector-agree"></use>
+                    </svg>
+                  </span>
+
+                  <span class="label-text">
+                    I agree to the
+                    <a href="#" class="conditions-link">privacy policy</a>
+                  </span>
+                </label>
+
+                <button class="submit-button submit-button-modal" type="submit">
+                  SEND
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <script>

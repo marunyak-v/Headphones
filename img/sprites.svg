@@ -27,3 +27,6 @@
 <symbol id="vector" viewBox="0 0 32 32">
 <path fill="none" stroke="#df3d3a" style="stroke: var(--color1, #df3d3a)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2.9091" d="M1.028 30.545l29.091-29.091M30.119 30.545v-29.091h-29.091"></path>
 </symbol>
+<symbol id="vector-agree" viewBox="0 0 38 32">
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.3636" d="M2.182 18.182l10.461 10.461c0.263 0.263 0.627 0.426 1.029 0.426 0.47 0 0.888-0.223 1.153-0.568l0.003-0.003 20.081-26.316"></path>
+</symbol>
