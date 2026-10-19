@@ -34,7 +34,6 @@
     padding-top: 50px;
     padding-bottom: 25px;
   }
-
 }
 
 @media (min-width: 1440px) {
@@ -64,7 +63,15 @@
     padding-bottom: 16px;
   }
 
-  .auto-nav-item  a {
+  .auto-nav-item a {
     color: $color-6;
   }
+
+  .burger-menu-wrapper {
+    display: none;
+  }
+}
+
+.burger-menu-wrapper.is-open {
+  display: block;
 }

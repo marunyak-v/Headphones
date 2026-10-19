@@ -36,3 +36,32 @@ colorOptions.forEach((option) => {
     grayHeadphones.classList.toggle("active", color === "gray");
   });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const openBtn = document.querySelector("[data-menu-open]");
+  const closeBtn = document.querySelector("[data-menu-close]");
+  const menu = document.querySelector("[data-menu]");
+
+  if (openBtn && closeBtn && menu) {
+   
+    openBtn.addEventListener("click", () => {
+      menu.classList.add("is-open");
+      document.body.style.overflow = "hidden"; 
+    });
+
+   
+    closeBtn.addEventListener("click", () => {
+      menu.classList.remove("is-open");
+      document.body.style.overflow = ""; 
+    });
+
+    
+    const menuLinks = menu.querySelectorAll(".burger-nav a");
+    menuLinks.forEach((link) => {
+      link.addEventListener("click", () => {
+        menu.classList.remove("is-open");
+        document.body.style.overflow = "";
+      });
+    });
+  }
+});

@@ -217,6 +217,8 @@
 
 @media screen and (min-width: 1440px) {
   .feedback-picture img {
+    padding-top: 85px;
+    padding-bottom: 85px;
     display: block;
     width: calc(100% + 160px);
     margin-left: -80px;
@@ -233,6 +235,10 @@
   .feedback-text {
     width: 380px;
     flex-shrink: 0;
+  }
+
+  .feedback-content {
+    padding: 0;
   }
 
   .feedback-content h2 {

@@ -15,13 +15,15 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <div class="container burger-menu-wrapper">
+  
+    <div class="container burger-menu-wrapper" data-menu>
       <div class="modal">
         <div class="burger-header">
           <svg class="logo-svg">
             <use href="./img/sprites.svg#bose-logo"></use>
           </svg>
-          <button class="close-btn">
+      
+          <button class="close-btn" data-menu-close type="button">
             <svg class="close-svg">
               <use href="./img/sprites.svg#close"></use>
             </svg>
@@ -37,6 +39,7 @@
         </ul>
       </div>
     </div>
+
     <header>
       <div class="container header-wrapper">
         <div class="header-container">
@@ -45,7 +48,8 @@
               <use href="./img/sprites.svg#bose-logo"></use>
             </svg>
           </a>
-          <button class="hamburger-btn">
+
+          <button class="hamburger-btn" data-menu-open type="button">
             <svg class="hamburger-svg">
               <use href="./img/sprites.svg#hamburger"></use>
             </svg>
@@ -665,6 +669,37 @@
         </div>
       </div>
     </section>
+    <footer class="footer">
+      <div class="container footer-wrapper">
+        <div class="footer-list-wrapper">
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a href="#" class="footer-link">Characteristics</a>
+            </li>
+            <li class="footer-item">
+              <a href="#" class="footer-link">History</a>
+            </li>
+            <li class="footer-item">
+              <a href="#" class="footer-link">Reviews</a>
+            </li>
+          </ul>
+          <ul class="footer-list footer-list-right">
+            <li class="footer-item">
+              <a href="#" class="footer-link">Payment and delivery</a>
+            </li>
+            <li class="footer-item">
+              <a href="#" class="footer-link">Store addresses</a>
+            </li>
+            <li class="footer-item">
+              <a href="#" class="footer-link">FAQ</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-number">
+          <a href="tel:+88001111111" class="footer-phone">8 (800) 111-11-11</a>
+        </div>
+      </div>
+    </footer>
     <script>
       (() => {
         document
